@@ -12,6 +12,8 @@
 (function(global)
 {
 
+  var fs = require('fs')
+
 	// A configuration object from which to draw default settings
 	var DEFAULTS = {
 		delimiter: "",	// empty: auto-detect
